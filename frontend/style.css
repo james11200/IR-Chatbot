@@ -1,0 +1,43 @@
+body { 
+    color: rgb(0, 0, 0); 
+    font-weight: bold; 
+    font-size: 18px; 
+    font-family: "Courier New"; 
+    background: rgb(255, 255, 255); 
+}
+body::after {
+    content: "";
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+span { 
+    color: rgb(0, 0, 0); 
+} 
+::-webkit-input-placeholder { 
+    color: rgb(0, 0, 0) 
+}
+#main { 
+    color: rgb(0, 0, 0);
+    position: fixed; 
+    top: 20%; 
+    right: 25%; 
+    width: 50%; 
+    border: 0px solid #421; 
+    padding: 40px; 
+    overflow: scroll;
+    height: 400px;
+}
+#main div { 
+    margin: 10px; 
+    color: rgb(0, 0, 0);
+} 
+#input { 
+    border: 0; 
+    padding: 5px; 
+    border: 1px solid #421; 
+}
